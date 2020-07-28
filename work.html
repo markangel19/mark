@@ -10,7 +10,20 @@
     <link rel="stylesheet" href="cssjs/animate.min.css">
     <link rel="stylesheet" href="cssjs/main.css">
     <link rel="icon" href="cssjs/images/logomark.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <title>MarkPortpolio</title>
+    <style media="screen">
+ .carousel-cell {
+   width: 30%;
+ margin: 5px;
+   }
+
+   /* cell number */
+   .carousel-cell:before {
+     display: block;
+   }
+ </style>
   </head>
   <body>
     <div class="container">
@@ -56,13 +69,38 @@
     			</div>
 </div>
 
+<h1 class="headings">My <span id="myskills">Design</span></h1>
+   <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true }'>
+     <div class="carousel-cell">
+       <img class="w3-image" src="cssjs/design/a.jpg">
+     </div>
+     <div class="carousel-cell">
+       <img class="w3-image" src="cssjs/design/b.jpg">
+     </div>
+     <div class="carousel-cell">
+       <img class="w3-image" src="cssjs/design/c.jpg">
+     </div>
+     <div class="carousel-cell">
+       <img class="w3-image" src="cssjs/design/d.jpg">
+     </div>
+     <div class="carousel-cell">
+       <img class="w3-image" src="cssjs/design/e.jpg">
+     </div>
+     <div class="carousel-cell">
+       <img class="w3-image" src="cssjs/design/f.jpg">
+     </div>
+     <div class="carousel-cell">
+       <img class="w3-image" src="cssjs/design/h.jpg">
+     </div>
+
 </main>
 
 
 
 
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script src="cssjs/app.js"></script>
 
 </body></html>
